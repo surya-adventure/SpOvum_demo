@@ -34,11 +34,13 @@ Average(colB) VS date
 
 Kindly share the link to the git repo once you think you’ve coded enough!
 
-We will be forced to not consider incomplete/ irreproducible codes (as you might have guessed it).
 
 ## Instructions on how to use this application.
 
-1. We need to set up database. 
+## 1. Using Python data extraction
+
+```
+We need to set up database. 
    
    * Manually create mysql database with name spovum_demo then import the sqldump under Mysql folder or
                                        
@@ -50,4 +52,14 @@ We will be forced to not consider incomplete/ irreproducible codes (as you might
 
 This will make sure all the data are populated in database as per the instruction.
 
+```
+
+## 2. Plotting the data using PHP and D3
+
+```
+* Copy paste the php folder in any apache server's root folder
+* Make sure to correct the database credintials in data.php at line 2
+* Access them via localhost example http://localhost/PHP/index.php
+   It should display the d3.js chart
+```
     
