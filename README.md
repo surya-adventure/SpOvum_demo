@@ -35,3 +35,19 @@ Average(colB) VS date
 Kindly share the link to the git repo once you think you’ve coded enough!
 
 We will be forced to not consider incomplete/ irreproducible codes (as you might have guessed it).
+
+## Instructions on how to use this application.
+
+1. We need to set up database. 
+   
+   * Manually create mysql database with name spovum_demo then import the sqldump under Mysql folder or
+                                       
+   * Run  extract_data_to_db.py with  
+            DB_NAME = "spovum_demo"
+            TABLE_NAME = "dm_values"   at line 26  & 27 which will create necessary database and tables.
+
+            Also replace path name in gather_all_data() function with actual path of the extracted folder at line 131.
+
+This will make sure all the data are populated in database as per the instruction.
+
+    
